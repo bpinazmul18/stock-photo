@@ -88,7 +88,7 @@ function App() {
           })}
         </div>
 
-        {loading && <h2>Loading...</h2>}
+        {loading && <h2 style={{ textAlign: 'center' }}>Loading...</h2>}
       </section>
     </main>
   );
